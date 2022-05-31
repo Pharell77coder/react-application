@@ -4,15 +4,8 @@ import {NavLink} from "react-router-dom";
 export default function Navigation() {
   return (
     <div className="Navigation">
-      <NavLink to='/login'>
-        Login
-      </NavLink>
-      <NavLink to='/welcome'>
-        Welcome
-      </NavLink>
-      <NavLink to='/cats'>
-        Cats
-      </NavLink>
+      <NavLink to='/Login'><p>Login</p></NavLink>
+      <NavLink to='/Welcome'><p>Welcome</p></NavLink>
     </div>
   );
 }
