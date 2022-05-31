@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Card";
-import Button from "./Button";
+import Card from "../Molecules/Card";
+import Button from "../Atoms/Button";
 
 export default function Login() {
   return (
