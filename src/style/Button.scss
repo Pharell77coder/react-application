@@ -1,0 +1,11 @@
+.Button{
+    height: 100px;
+    width: 200px;
+    margin: 50px;
+    background-color : skyblue;
+    border: solid 1px;
+    float: left;
+}
+.Button:hover{
+    background-color : white;
+}
